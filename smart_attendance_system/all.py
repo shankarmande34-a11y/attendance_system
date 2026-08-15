@@ -1,12 +1,3 @@
-#!/usr/bin/env python3
-"""
-Smart Face Recognition Attendance System
-Single-file production version with Waitress WSGI server.
-Usage:
-  python attendance.py web        # Start dashboard (WSGI)
-  python attendance.py recognize  # Start camera recognition
-"""
-
 import os
 import sys
 import cv2
